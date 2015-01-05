@@ -172,6 +172,9 @@
 		D31108C91828DBD600737925 /* OCObserverMockObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B316291463350E0052CD09 /* OCObserverMockObjectTests.m */; };
 		D31108CA1828DBD600737925 /* NSInvocationOCMAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3161F1463350E0052CD09 /* NSInvocationOCMAdditionsTests.m */; };
 		D31108CB1828DC1300737925 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 030EF0DC14632FF700B04273 /* libOCMock.a */; };
+		EA5BAA041A5AC07F0086887E /* NSProxy+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5BAA021A5AC07F0086887E /* NSProxy+OCMAdditions.h */; };
+		EA5BAA051A5AC07F0086887E /* NSProxy+OCMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5BAA031A5AC07F0086887E /* NSProxy+OCMAdditions.m */; };
+		EA5BAA061A5AC0850086887E /* NSProxy+OCMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5BAA031A5AC07F0086887E /* NSProxy+OCMAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -290,6 +293,8 @@
 		D31108B71828DB8700737925 /* OCMockLibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCMockLibTests-Info.plist"; sourceTree = "<group>"; };
 		D31108B91828DB8700737925 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D31108BD1828DB8700737925 /* OCMockLibTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCMockLibTests-Prefix.pch"; sourceTree = "<group>"; };
+		EA5BAA021A5AC07F0086887E /* NSProxy+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSProxy+OCMAdditions.h"; sourceTree = "<group>"; };
+		EA5BAA031A5AC07F0086887E /* NSProxy+OCMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSProxy+OCMAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -478,6 +483,8 @@
 		03B31618146333CA0052CD09 /* Foundation Additions */ = {
 			isa = PBXGroup;
 			children = (
+				EA5BAA021A5AC07F0086887E /* NSProxy+OCMAdditions.h */,
+				EA5BAA031A5AC07F0086887E /* NSProxy+OCMAdditions.m */,
 				03B31585146333BF0052CD09 /* NSInvocation+OCMAdditions.h */,
 				03B31586146333BF0052CD09 /* NSInvocation+OCMAdditions.m */,
 				03B31587146333BF0052CD09 /* NSMethodSignature+OCMAdditions.h */,
@@ -603,6 +610,7 @@
 				03B315B4146333BF0052CD09 /* NSMethodSignature+OCMAdditions.h in Headers */,
 				03C7BF0A195DA2F200A545DD /* OCMInvocationStub.h in Headers */,
 				03B315BE146333BF0052CD09 /* OCClassMockObject.h in Headers */,
+				EA5BAA041A5AC07F0086887E /* NSProxy+OCMAdditions.h in Headers */,
 				03B315C8146333BF0052CD09 /* OCMBlockCaller.h in Headers */,
 				03C7BF10195DAB5300A545DD /* OCMExpectationRecorder.h in Headers */,
 				03B315CD146333BF0052CD09 /* OCMBoxedReturnValueProvider.h in Headers */,
@@ -856,6 +864,7 @@
 				2FA282F0C0A4CABE4E2C7646 /* OCMInvocationMatcher.m in Sources */,
 				2FA28BA90F0D55E4CF6787F0 /* OCMFunctions.m in Sources */,
 				2FA286C7B8862280E6C1A585 /* OCMInvocationExpectation.m in Sources */,
+				EA5BAA051A5AC07F0086887E /* NSProxy+OCMAdditions.m in Sources */,
 				2FA2800D12E95D5ABC965753 /* OCMMacroState.m in Sources */,
 				2FA2805AB1944A206EEE383B /* NSValue+OCMAdditions.m in Sources */,
 			);
@@ -894,6 +903,7 @@
 				2FA288B20FB3A42BA0B7BAB8 /* OCMInvocationMatcher.m in Sources */,
 				2FA286F90395E317F983A20A /* OCMFunctions.m in Sources */,
 				2FA28E506BE0D91A95A20243 /* OCMInvocationExpectation.m in Sources */,
+				EA5BAA061A5AC0850086887E /* NSProxy+OCMAdditions.m in Sources */,
 				2FA28209EB1F41964DF3031A /* OCMMacroState.m in Sources */,
 				2FA28FEAEF9333D2C214DF53 /* NSValue+OCMAdditions.m in Sources */,
 			);
